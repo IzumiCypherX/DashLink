@@ -1,0 +1,6 @@
+- Implement a views counting system.
+- Fix issue with 'public' folder being generated inside controllers.
+- Figure out 'userId' generation inside of 'links' table.
+- Add delete endpoint for links
+
+- Fix issue with infinite buffering when wrong resource being accessed from public
