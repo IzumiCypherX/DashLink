@@ -49,6 +49,6 @@ users.associate = function(models) {
   users.hasMany(models.links, {foreignKey: 'creator_id'});
 }
 
-links.belongsTo(users);
+links.belongsTo(users, {foreignKey: 'creator_id'});
 
 module.exports = db;

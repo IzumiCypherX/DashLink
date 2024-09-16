@@ -3,7 +3,7 @@ const cors = require('cors');
 const session = require('express-session');
 const db = require('./models');
 const authRouter = require('./routes/auth');
-const linkRouter = require('./routes/generateLink');
+const linkRouter = require('./routes/linkRouter');
 const authenticate = require('./middleware/authenticate');
 require('dotenv').config();
 

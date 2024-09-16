@@ -20,8 +20,11 @@ module.exports = function Links(sequelize, DataTypes) {
         shortUrl: {
             type: DataTypes.STRING,
             allowNull: false,
-            unique: true,
             unique: true
+        },
+        views: {
+            type: DataTypes.INTEGER,
+            defaultValue: 0
         }
     }, {
         indexes: [{

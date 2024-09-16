@@ -76,3 +76,25 @@ Example Response
 here's the example QR (points at localhost, so not usable by you):
 
 ![QRCode](./controllers/public/dT9e2KtCD3.png)
+
+### `DELETE` /api/deleteLink
+
+#### Request Body
+
+##### JSON
+```json
+{
+    "shortUrl": "SCLuAZMpkn" // example endpoint
+}
+```
+
+#### Response
+
+Example Response
+
+```json
+{
+    "status": 200,
+    "message": "endpoint deleted successfully"
+}
+```
