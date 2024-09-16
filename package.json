@@ -1,12 +1,16 @@
 {
   "name": "dashlink",
-  "version": "1.0.1-DEV",
+  "version": "1.0.2-DEV",
   "main": "index.js",
   "scripts": {
     "serve": "node app.js",
     "test": "nodemon app.js"
   },
-  "keywords": ["link shortening", "dashlink", "self-hosted"],
+  "keywords": [
+    "link shortening",
+    "dashlink",
+    "self-hosted"
+  ],
   "author": "Sidhartha Rao",
   "license": "MIT",
   "description": "A no-BS link shortening service",

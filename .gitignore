@@ -131,3 +131,7 @@ dist
 
 # lock
 package-lock.json
+
+# tests
+*test.js
+.vscode/
